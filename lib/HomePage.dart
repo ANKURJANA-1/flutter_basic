@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/ButtonNavigtionBar.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -51,11 +52,11 @@ class _HomePageState extends State<HomePage> {
             SizedBox(
               height: 10.0,
             ),
-           
-
+            ButtonNavigtionBar()
           ],
         ),
       ),
+      
     );
   }
 }
